@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./IMG_20240711_202539_233.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Ecole Prive Excellence</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="refresh" content="300" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div>
+          <img src="./IMG_20240711_202539_233.jpg" alt="Logo" />
+        </div>
+      </div>
+      <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#a-propos">A propos</a>
+        <a href="#program">Programmes</a>
+        <a href="#gallerie">Gallerie</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="phone">
+        <input type="checkbox" id="btn" /><label for="btn" class="open">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="32px"
+            viewBox="0 -960 960 960"
+            width="32px"
+            fill="#e8eaed"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </label>
+        <div class="link">
+          <label for="btn" class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32px"
+              viewBox="0 -960 960 960"
+              width="32px"
+              fill="#e8eaed"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </label>
+          <a href="#accueil">Accueil</a>
+          <a href="#a-propos">A propos</a>
+          <a href="#program">Programmes</a>
+          <a href="#gallerie">Gallerie</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section1" id="accueil">
+        <div class="align">
+          <h1>Bienvenue à L'école Privé Excellence</h1>
+          <article>
+            <p>
+              Ou l'excellence académique rencontre l'épanouissement personnelle
+            </p>
+          </article>
+          <button><a href="#contact">Demander une brochure</a></button>
+        </div>
+      </section>
+      <section class="section2" id="a-propos">
+        <div class="left">
+          <h1>A Propos De Nous</h1>
+          <img src="./IMG_20240711_202539_544.jpg" alt="photo" />
+        </div>
+        <p>
+          L'Ecole Privée Excellence offre un environnement<br />
+          d'apprentissage stimulant et bienveillant<br />Depuis plus de 20 ans.
+          Notre mission est de former des élèves<br />épanouis, curieux et prêt
+          pour les défis du futur.
+        </p>
+      </section>
+      <section class="section3" id="program">
+        <h1>Nos Programmes</h1>
+        <div class="prog">
+          <article id="art1">
+            <img src="./IMG_20240711_202539_794.jpg" alt="photo" />
+            <div class="text">
+              <div>
+                <h1>Primaire</h1>
+              </div>
+              <p>Un enseignement fondamental solide</p>
+            </div>
+          </article>
+          <article id="art2">
+            <img src="./IMG_20240711_202539_947.jpg" alt="photo" />
+            <div class="text">
+              <div>
+                <h1>Collège</h1>
+              </div>
+              <p>Développement des compétences clés</p>
+            </div>
+          </article>
+          <article id="art3">
+            <img src="./IMG_20240711_202539_697.jpg" alt="photo" />
+            <div class="text">
+              <div>
+                <h1>Lycée</h1>
+              </div>
+              <p>Préparation à l'enseignement supérieur</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section4" id="gallerie">
+        <h1>Gallerie</h1>
+        <div>
+          <div class="a">
+            <img src="./school-2051711.jpg" alt="photo" />
+            <img src="./school-7408260.jpg" alt="photo"/>
+            <img src="./read-2007117.jpg" alt="photo" />
+          </div>
+          <div class="b">
+            <img src="./to-learn-1996845.jpg" alt="photo" />
+            <img src="./notebook-2602886.jpg" alt="photo" />
+            <img src="./books-7466653.jpg" alt="photo" />
+          </div>
+        </div>
+      </section>
+      <section class="section5" id="contact">
+        <h1>Contactez-Nous</h1>
+        <form action="https://formspree.io/f/xeojoggp" method="post">
+          <label  id="user">
+            Votre nom:<br />
+            <input
+              type="text"
+              name="name"
+              placeholder="Nom"
+              autocomplete="on"
+              required="required"
+             
+            />
+          </label>
+          <label>
+            Votre email:<br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              autocomplete="on"
+              required="required"
+              id="mail"
+            />
+          </label>
+          <label>
+            Votre message:<br />
+            <textarea
+              name="message"
+              placeholder="Entrer votre message par ici"
+              required="required"
+            ></textarea>
+          </label>
+          <div>
+            <input type="submit" value="Envoyer" id="submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="main">
+        <div>
+          <h1>DAKAR</h1>
+          <p>
+            Sacre coeur 3 rond point jvc<br />Tél : 776667453<br />Email :
+            info@ecole-excellence.fr
+          </p>
+        </div>
+        <div class="diva">
+          <h1>Liens rapides</h1>
+          <a href="#accueil">Accueil</a>
+          <a href="#a-propos">A propos</a>
+          <a href="#program">Programmes</a>
+          <a href="#gallerie">Gallerie</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="divb">
+          <h1>Suivez-nous</h1>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <p>&copy;Copyright 2024 Ecole Privée Excellence. Tous Droits Réservés.</p>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
