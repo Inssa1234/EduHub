@@ -37,6 +37,7 @@ body {
     background-color: black;
     background: url(./notes-2208049.jpg) center/cover no-repeat;
     min-height: 100Vh;
+    filter: none;
 }.header{
     background: linear-gradient(0deg,  rgb(0 0 0 / 0%), black);
     border-bottom-left-radius: 12px;
@@ -306,7 +307,18 @@ form div input {
     color: white;
     border: solid transparent;
     border-radius: 10px;
+}.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+}.progress-bar-fill {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.2s;
 }
+  
 @media screen and (min-width: 768px) {
     .phone {
         display: none;
