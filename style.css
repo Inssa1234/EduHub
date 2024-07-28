@@ -26,6 +26,7 @@
     border-radius: 10px;
     text-decoration: none;
     position: relative;
+    cursor: pointer;
 }
 .section1 a {
     text-decoration: none;
